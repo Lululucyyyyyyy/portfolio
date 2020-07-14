@@ -678,14 +678,6 @@
       "resolved": "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz",
       "version": "1.0.2"
     },
-    "engines":{
-      "name": "lululucyyyyyyy",
-      "description": "Lucy Mo's Website",
-      "version": "1.0.0",
-      "engines": {
-        "node": "12.x"
-      }
-    },
     "end-of-stream": {
       "integrity": "sha512-1MkrZNvWTKCaigbn+W15elq2BB/L22nqrSY5DKlo3X6+vclJm8Bb5djXJBmEX6fS3+zCh/F4VBK5Z2KxJt4s2Q==",
       "requires": {
@@ -693,6 +685,14 @@
       },
       "resolved": "https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.1.tgz",
       "version": "1.4.1"
+    },
+    "engines": {
+      "description": "Lucy Mo's Website",
+      "engines": {
+        "node": "12.x"
+      },
+      "name": "lululucyyyyyyy",
+      "version": "1.0.0"
     },
     "es5-ext": {
       "integrity": "sha512-CdRvPlX/24Mj5L4NVxTs4804sxiS2CjVprgCmrgoDkdmjdY4D+ySHa7K3jJf8R40dFg0tIm3z/dk326LrnuSGw==",
@@ -2749,8 +2749,8 @@
       "version": "2.0.0"
     },
     "scripts": {
-      "start": "nodemon server.js",
-      "build": "webpack"
+      "build": "webpack",
+      "start": "nodemon server.js"
     },
     "semver": {
       "integrity": "sha512-RS9R6R35NYgQn++fkDWaOmqGoj4Ek9gGs+DPxNUZKuwE183xjJroKvyo1IzVFeXvUrvmALy6FWD5xrdJT25gMg==",
